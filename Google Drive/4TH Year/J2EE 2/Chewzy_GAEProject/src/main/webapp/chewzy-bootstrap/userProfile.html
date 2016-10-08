@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Chewzy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <link rel="stylesheet" type="text/css" href="Chewzy.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/prettify.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/chewzy.css">
+
+<!-- Circular -->
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/common.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+<!-- end of circular -->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+
+  <link href="css/bootstrap-modal-bs3patch.css" rel="stylesheet" />
+  <link href="css/bootstrap-modal.css" rel="stylesheet" />
+
+</head>
+<body>
+<div class="page-container">
+  <div class="container" style="position: relative">
+    <!-- Start of navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Logo</a>
+      </div> 
+      <div class="navbar-collapse navbar-right collapse">
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a data-toggle="modal" href="#responsive">Log In</a></li>
+              <li><a href="signUp.html">Sign Up </a></li>
+              
+          </ul>
+      </div>    
+  </nav>
+  </div>
+  <!-- End Navigation -->
+
+<div class="jumbotron">
+  <div class="container col-centered">
+    <div id="ppContainer">
+        <img id="profilePicture" src="C:\Users\joswa\Desktop\chewzy-bootstrap\images\kokey-4.jpg">
+     </div>
+       <center>
+       <div id="highlight">
+        <h2 id="name">
+           Ferdinando Poe
+        </h2>
+          <p id="location"><img src="C:\Users\joswa\Desktop\chewzy-bootstrap\images\ic_place_white_24dp_1x.png"> Basak Pardo, Cebu city, Philippines</p>
+        </div>
+       </center>
+  </div>
+</div>
+<!-- End Intro Text -->
+
+    <br>
+    <center>
+        <a data-toggle="modal" href="#addfoodtripModal"><button class="btn btn-danger btn-lg" type="button">Add Foodtrip</button></a>
+    </center>
+
+    <div id="addfoodtripModal" class="modal fade" tabindex="9999" data-width="760" style="display:none;">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Add Food Trip</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="form-group">
+                    <label for="foodTripReview" class="col-lg-3 control-label">Transaction ID:</label>
+                    <div class="col-lg-9">
+                        <input type="text" name="" class="form-control" id="foodTripTransactionID">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="foodTripReview" class="col-lg-2 control-label">Review</label>
+                    <div class="col-lg-10">
+                        <textarea rows="7" cols="35" class="form-control" id="foodTripReview" placeholder="Your review goes here" disabled="disabled"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <input class="btn btn-danger btn-lg" type="submit" name="addFoodTrip">
+        </div>
+    </div>
+ </div>
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/prettify.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-modalmanager.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+
+  </body>
+</html>

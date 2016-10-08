@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Bootstrap-modal </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/prettify.css" rel="stylesheet" />
+<style>
+  body { 
+    padding-top: 40px; 
+  }
+</style>
+  <link href="css/bootstrap-modal-bs3patch.css" rel="stylesheet" />
+  <link href="css/bootstrap-modal.css" rel="stylesheet" />
+<style>      
+  .text-center { 
+    text-align: center; 
+  }
+
+  .marketing h1 {
+    font-size: 50px;
+    font-weight: lighter;
+    line-height: 1;
+  }
+
+  .marketing p {
+    font-size: 18px;
+  }
+  </style>
+</head>
+<body>
+  <div class="page-container">
+    <div class="container" style="position: relative">
+      <div class="marketing">
+        <h1>Bootstrap-Modal</h1>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-md-10">
+          
+          <div class="responsive">
+           
+            
+            <div class="text-center">
+            <button class="demo btn btn-primary btn-lg" data-toggle="modal" href="#responsive">Login</button>
+            </div>
+          </div>
+          <br />
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+    
+
+<div id="responsive" class="modal fade" tabindex="-1" data-width="760" style="display: none;">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title">Login your account</h4>
+  </div>
+  <div class="modal-body">
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Username</h4>
+        <p><input class="form-control" type="email" /></p>
+        
+      </div>
+      <div class="col-md-6">
+        <h4>Password</h4>
+        <p><input class="form-control" type="password" /></p>
+        
+      </div>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+    <button type="button" class="btn btn-primary">Login</button>
+  </div>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/prettify.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-modalmanager.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+
+  </body>
+</html>

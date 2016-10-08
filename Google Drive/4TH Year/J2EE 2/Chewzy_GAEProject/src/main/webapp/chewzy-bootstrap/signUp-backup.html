@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <title>Chewzy</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" type="text/css" href="Chewzy.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/prettify.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="css/chewzy.css">
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+<!-- Circular -->
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/common.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+        <script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+<!-- end of circular -->
+
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+<![endif]-->
+<style>
+  body { 
+    padding-top: 40px; 
+  }
+</style>
+  <link href="css/bootstrap-modal-bs3patch.css" rel="stylesheet" />
+  <link href="css/bootstrap-modal.css" rel="stylesheet" />
+
+
+  
+
+</head>
+<body>
+
+<div class="page-container">
+  <div class="container" style="position: relative">
+
+    <!-- Start of navigation -->
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">Logo</a>
+      </div> 
+      <div class="navbar-collapse navbar-right collapse">
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a data-toggle="modal" href="#responsive">Log In</a></li>
+              <li><a href="signUp.html">Sign Up </a></li>
+
+              
+          </ul>
+      </div>    
+  </nav>
+  </div>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Chewzy</h1>
+    <p>Discover popular dishes and restaurants around you!</p>
+    <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" id="focusedInput" placeholder="Search restaurant or dish" maxlength="30" size="50">
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+  </div>
+</div>
+<!-- End Intro Text -->
+  </div>
+    
+<form class="form-horizontal">
+  <fieldset>
+    <legend>Sign Up</legend>
+    <div class="form-group">
+      <label for="lastName" class="col-lg-2 control-label">Last Name</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+      </div>
+    </div>
+    <div class="form-group">
+        <label for="givenName" class="col-lg-2 control-label">Given Name</label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="givenName" placeholder="Given Name">
+        </div>
+    </div>
+     <div class="form-group">
+      <label for="middleName" class="col-lg-2 control-label">Middle Name</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="middleName" placeholder="Middle Name">
+      </div>
+    </div>
+
+     <div class="form-group">
+      <label for="EmailAddress" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="EmailAddress" placeholder="EmailAddress">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="password" class="col-lg-2 control-label">Password</label>
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="password" placeholder="Password">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="confirmPassword" class="col-lg-2 control-label">Confirm Password</label>
+      <div class="col-lg-10">
+        <input type="password" class="form-control" id="ccomfirmPassword" placeholder="Password">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="gender" class="col-lg-2 control-label">Gender</label>
+      <div class="col-lg-10">
+        <select class="form-control" id="gender">
+          <option>Male</option>
+          <option>Female</option>
+        </select>
+        <br>
+      </div>
+        <div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
+
+      <!-- <label for="gender" class="col-lg-2 control-label">Birth Date</label>
+        <input type="text" name="birthdate" value="10/24/1994" />
+   
+          <script type="text/javascript">
+          $(function() {
+              $('input[name="birthdate"]').daterangepicker({
+                  singleDatePicker: true,
+                  showDropdowns: true
+              }, 
+              function(start, end, label) {
+                  var years = moment().diff(start, 'years');
+                  alert("You are " + years + " years old.");
+              });
+          });
+          </script>
+    </div> -->
+
+  
+
+
+<!--     <div class="form-group">
+      <label class="col-lg-2 control-label">Radios</label>
+      <div class="col-lg-10">
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+            Option one is this
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Option two can be something else
+          </label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="select" class="col-lg-2 control-label">Selects</label>
+      <div class="col-lg-10">
+        <select class="form-control" id="select">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <br>
+        <select multiple="" class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+      </div>
+    </div> -->
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
+
+
+
+
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/prettify.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootstrap-modalmanager.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+  </body>
+</html>

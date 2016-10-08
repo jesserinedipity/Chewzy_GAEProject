@@ -1,0 +1,12 @@
+.intro-block{
+    padding: 5px 0px 0px 5px;
+    color: #fff;
+}
+.jumbotron{
+	margin-bottom: 0px;
+    background-image: url(../images/landing-photo.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}

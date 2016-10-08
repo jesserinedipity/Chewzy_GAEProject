@@ -1,0 +1,32 @@
+<component name="libraryTable">
+  <library name="Maven: aopalliance:aopalliance:1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/docs/endpoints/javadoc" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/docs/javadoc" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/docs/remoteapi/javadoc" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/docs/spi/javadoc" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/docs/testing/javadoc" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/docs/tools/javadoc" />
+      <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/guestbook/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/helloorm2/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/helloorm/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/helloservers/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/helloxmpp/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/jdoexamples/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/mandelbrot/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/mediastore/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/new_project_template/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/shardedcounter/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/sticky/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/taskengine/src" />
+      <root url="file://$MAVEN_REPOSITORY$/com/google/appengine/appengine-java-sdk/1.9.25/appengine-java-sdk/appengine-java-sdk-1.9.25/demos/taskqueueexamples/src" />
+    </SOURCES>
+  </library>
+</component>
