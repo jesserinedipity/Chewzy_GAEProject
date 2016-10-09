@@ -11,6 +11,6 @@ public interface UserDao {
     public List<User> getAllUsers() throws Exception;
     public User getUserbyId(Long id) throws Exception;
     public void addUser(User user) throws Exception;
-    public void updateUser(User user, String userid) throws Exception;
-    public void deleteUser(String userid) throws Exception;
+    public void updateUser(User user) throws Exception;
+    public void deleteUser(User user) throws Exception;
 }

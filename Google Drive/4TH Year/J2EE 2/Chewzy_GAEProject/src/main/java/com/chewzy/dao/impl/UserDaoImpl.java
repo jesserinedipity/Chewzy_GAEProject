@@ -32,13 +32,17 @@ public class UserDaoImpl implements UserDao{
     }
 
     //Still not working
-    public void updateUser(User user, String userid){
-        Long u_id = Long.parseLong(userid);
-        ObjectifyService.ofy().load().type(User.class).id(u_id).now();
+    public void updateUser(User user){
+        ObjectifyService.ofy().load().type(User.class).id(user.getUser_id()).now();
     }
 
-    public void deleteUser(String userid){
-        Long u_id = Long.parseLong(userid);
+    public void deleteUser(User user){
+
+        //Just update, isDeleted changed flag
+        ObjectifyService.ofy().load().type(User.class).id(user.getUser_id()).now();
+
+        //To really delete in the database
+        ObjectifyService.ofy().delete().type(User.class).id(user.getUser_id()).now();
 
     }
 }
